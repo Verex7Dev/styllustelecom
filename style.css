@@ -1,0 +1,328 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 150px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* fim do reset*/
+
+/* base*/
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ff0000;
+  height: 8vh;
+}
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mypageverex7 {
+  background: rgb(223, 20, 20);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(223, 20, 20, 1) 30%,
+    rgba(163, 21, 21, 1) 48%,
+    rgba(223, 20, 20, 1) 68%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(223, 20, 20, 1) 30%,
+    rgba(163, 21, 21, 1) 48%,
+    rgba(223, 20, 20, 1) 68%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(223, 20, 20, 1) 30%,
+    rgba(163, 21, 21, 1) 48%,
+    rgba(223, 20, 20, 1) 68%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#df1414",endColorstr="#df1414",GradientType=1);
+  padding: 10px; /* Adicione algum espaço ao redor do conteúdo */
+}
+
+.mypageverex7 a {
+    color: white;
+  display: block; /* Transforma o link em um bloco para centralizar o texto */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  background: rgb(223, 20, 20);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(223, 20, 20, 1) 30%,
+    rgba(163, 21, 21, 1) 48%,
+    rgba(223, 20, 20, 1) 68%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(223, 20, 20, 1) 30%,
+    rgba(163, 21, 21, 1) 48%,
+    rgba(223, 20, 20, 1) 68%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(223, 20, 20, 1) 30%,
+    rgba(163, 21, 21, 1) 48%,
+    rgba(223, 20, 20, 1) 68%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#df1414",endColorstr="#df1414",GradientType=1);
+  text-decoration: none; /* Remove sublinhado padrão do link */
+  font-weight: bold; /* Deixa o texto em negrito */
+  padding: 5px 0; /* Adicione algum espaço acima e abaixo do texto */
+}
+
+
+
+.colum {
+  color: white;
+  background-color: #161616;
+  display: flex; /* Usar display flex para alinhar os itens um ao lado do outro */
+  justify-content: center; /* Centralizar os itens horizontalmente */
+  align-items: center; /* Centralizar os itens verticalmente */
+}
+
+.textcolum {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 8px;
+
+}
+
+.textconect {
+  font-size: large;
+  color: #15ff00;
+}
+
+.container-card {
+    color: white;
+background-color: #181818;
+  padding: 2px;
+  height: 120vh; /* Isso irá centralizar verticalmente também */
+}
+
+.nameab {
+  display: flex; /* Usar display flex para alinhar os itens um ao lado do outro */
+  justify-content: center; /* Centralizar os itens horizontalmente */
+  align-items: center; /* Centralizar os itens verticalmente */
+}
+.sub-nameab {
+  display: flex; /* Usar display flex para alinhar os itens um ao lado do outro */
+  justify-content: center; /* Centralizar os itens horizontalmente */
+  align-items: center; /* Centralizar os itens verticalmente */
+}
+
+.textdestacado {
+  color: #15ff00;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content .price {
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+}
+
+.content .description {
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.content .title {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.64);
+  margin-top: 10px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+button {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: none;
+  outline: none;
+  color: rgb(255 255 255);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(243, 33, 33);
+  border-radius: 0.5rem;
+  width: 90%;
+  text-shadow: 0px 4px 18px #422c2c;
+}
+
+.section-base{
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+.base-container{
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
+  position: relative;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+  transition: all .3s;
+  width: 300px;
+  height: 450px;
+  border: 1px solid transparent; /* Borda transparente */
+  padding: 10px;
+  box-sizing: border-box;
+}
+.base-container:hover {
+  transform: scale(0.9);
+}
+
+.table-prec{
+  text-align: center;
+  justify-content: center;
+}
+/*final da base*/
+
+
+/* footer*/
+
+.content {
+    flex: 1;
+  }
+
+  .footer {
+    text-align: center;
+    background-color: #ff0000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+  }
+
+  /* Estilo do rodapé */
+  .footer {
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    background-color: #ff0000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Estilo da barra superior no rodapé */
+  .footer .top-bar {
+    height: 5px;
+    background-color: #fff20000;
+  }
+
+  /* Estilize os links no rodapé */
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Estilize os ícones */
+  .footer i {
+    margin-left: 5px;
+  }
+
+  /* Estilo para as colunas dentro do rodapé */
+  .footer .container {
+  }
+
+  .footer .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* Espaçamento entre os elementos no rodapé */
+  .footer .copyright-text p {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+
+  /* Linha horizontal */
+  .footer hr {
+    border: 1px solid #fff;
+    margin: 10px 0;
+  }
+
+
+  /*fim footer*/
+
+
+  
